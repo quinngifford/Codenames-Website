@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Column Website</title>
+    <link rel="stylesheet" href ="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="left-column">
+            <h2>Red Team</h2>
+            <div style="display: flex; justify-content: center; gap: 30px;">
+                <div>
+                    <input type="button" value="Operative" class="opJoinRed" id="opJoinRed"/>
+                    <p id="opNameRed" style="color: #FFFFFF;"></p>
+                </div>
+                <div>
+                    <input type="button" value="Spymaster" class="spyJoinRed" id="spyJoinRed"/>
+                    <p id="spyNameRed" style="color: #FFFFFF;"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="middle-column">
+            <input type="button" value="" class="wordCard" id="c1"/>
+            <input type="button" value="" class="wordCard" id="c2"/>
+            <input type="button" value="" class="wordCard" id="c3"/>
+            <input type="button" value="" class="wordCard" id="c4"/>
+            <input type="button" value="" class="wordCard" id="c5"/>
+            <input type="button" value="" class="wordCard" id="c6"/>
+            <input type="button" value="" class="wordCard" id="c7"/>
+            <input type="button" value="" class="wordCard" id="c8"/>
+            <input type="button" value="" class="wordCard" id="c9"/>
+            <input type="button" value="" class="wordCard" id="c10"/>
+            <input type="button" value="" class="wordCard" id="c11"/>
+            <input type="button" value="" class="wordCard" id="c12"/>
+            <input type="button" value="" class="wordCard" id="c13"/>
+            <input type="button" value="" class="wordCard" id="c14"/>
+            <input type="button" value="" class="wordCard" id="c15"/>
+            <input type="button" value="" class="wordCard" id="c16"/>
+            <input type="button" value="" class="wordCard" id="c17"/>
+            <input type="button" value="" class="wordCard" id="c18"/>
+            <input type="button" value="" class="wordCard" id="c19"/>
+            <input type="button" value="" class="wordCard" id="c20"/>
+            <input type="button" value="" class="wordCard" id="c21"/>
+            <input type="button" value="" class="wordCard" id="c22"/>
+            <input type="button" value="" class="wordCard" id="c23"/>
+            <input type="button" value="" class="wordCard" id="c24"/>
+            <input type="button" value="" class="wordCard" id="c25"/>
+        </div>
+        <div class="right-column">
+            <h2>Blue Team</h2>
+            <div style="display: flex; justify-content: center; gap: 30px;">
+                <div>
+                    <input type="button" value="Operative" class="opJoinBlue" id="opJoinBlue"/>
+                    <p id="opNameBlue" style="color: #FFFFFF;"></p>
+                </div>
+                <div>
+                    <input type="button" value="Spymaster" class="spyJoinBlue" id="spyJoinBlue"/>
+                    <p id="spyNameBlue" style="color: #FFFFFF;"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; gap: 10px; margin-top: 20px;">
+        <input type="text" class="hintInput" placeholder="Hint here..."/>
+        <input type="text" class="guessesInput" placeholder="#" />
+        <input type="button" value="Submit" class="submitButton"/>
+        <input type="button" value="End Turn" class="endTurnButton"/>
+    </div>
+    <input type="button" value="Start" class="genButton" id="genButton"/>
+    <script src="app.js"></script>
+</body>
+</html>
